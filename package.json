@@ -1,0 +1,19 @@
+{
+  "name": "prometheus-todo-app",
+  "version": "1.0.0",
+  "description": "A simple TODO application with Prometheus monitoring",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "prom-client": "^14.2.0",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+} 
